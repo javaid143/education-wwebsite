@@ -1,0 +1,103 @@
+
+/* responsive css start */
+@media only screen and (max-width: 1008px) {
+
+    html,
+    body {
+        font-size: 9.9px;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .navbar .navbar-nav
+    {
+        background-color: rgba(0, 0, 0, 0.781);
+        padding: 2rem 0rem;
+    }
+
+    .slider .swiper .swiper-slide .for-bg {
+        height: 60.5rem;
+      }
+}
+@media only screen and (max-width: 768px) {
+
+    .slider .swiper .swiper-slide .for-bg {
+        height: 55rem;
+      }
+}
+@media only screen and (max-width: 576px) {
+
+    .slider .swiper .swiper-slide .for-bg {
+        height: 50rem;
+      }
+      .courses .myswiper {
+        width: 80%;
+        margin: auto;
+      }
+      
+}
+@media only screen and (max-width: 624px) {
+
+    html,
+    body {
+        font-size: 9.7px;
+    }
+}
+@media only screen and (max-width: 611px) {
+    html,
+    body {
+        font-size: 9.2px;
+    }
+
+    .slider .swiper .swiper-slide .details h2 {
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+      }
+}
+@media only screen and (max-width: 497px) {
+    html,
+    body {
+        font-size: 8.8px;
+    }
+
+    .slider .swiper .swiper-slide .details h2 {
+        font-size: 2rem;
+        line-height: 3.5rem;
+      }
+    .slider .swiper .swiper-slide .details p {
+       margin-top: 1rem;
+      }
+}
+@media only screen and (max-width: 396px) {
+    html,
+    body {
+        font-size: 8.5px;
+    }
+
+    .slider .swiper .swiper-slide .details h2 {
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+      }
+    .slider .swiper .swiper-slide .details p {
+       margin-top: .8rem;
+      }
+}
+@media only screen and (max-width: 344px) {
+    html,
+    body {
+        font-size: 8.2px;
+    }
+    .slider .swiper .swiper-slide .details {
+        width: 60%;
+        margin-left: 6rem;
+      }
+    .slider .swiper .swiper-slide .details h2 {
+        font-size: 1.7rem;
+        line-height: 3rem;
+      }
+    .slider .swiper .swiper-slide .details p {
+       margin-top: .7rem;
+      }
+
+}
+/* responsive css start */

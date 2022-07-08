@@ -1,0 +1,73 @@
+
+/* import popin font from google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* declare colors variable*/
+$white : #fff;
+$black : #000;
+$primary : #2ecc71;
+$secondary : #3498db;
+$heading-color : #002347;
+$card-bg: #f9f9ff;
+$price-bg : #f1c40f;
+/* declare colors variable end*/
+
+/* some custom css start*/
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.hide {
+    display: none;
+}
+section {
+    margin: 13rem 0rem;
+}
+.row-wrapper {
+    margin: 5rem 0rem;
+}
+/* some custom css end*/
+
+/* custom scroll bar css start */
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track {
+    background-color: $secondary;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $primary;
+}
+/* custom scroll bar css start */
